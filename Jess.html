@@ -1,0 +1,287 @@
+﻿
+<!DOCTYPE html>
+<head>
+	<meta charset="utf-8">
+	<title>Jessica Kang</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<!-- favicon -->
+	<link rel="icon" type="image/png" href="img/favicon.png">
+
+	<!-- css -->
+	<link rel="stylesheet" href="css/bootstrap_animatedmodal.min.css">
+	<link rel="stylesheet" href="css/css.css">
+	
+	<!-- JS  -->
+	<script src="js/jquery_bootstrap_typed.min.js"></script>
+	<script>
+		$(document).ready(function() {
+			// typed
+			var introTyped = new Typed('#welcome-text', {
+				strings: ["hi, i’m <span>jess</span>"],
+				typeSpeed: 50,
+				startDelay: 950,
+				loop: false,
+				showCursor: false,
+			});
+
+			// navbar
+			$('.navbar-toggle').click(function() {
+				$('#explore').toggle(500);
+			});
+		});
+						  
+		$(window).load(function() {
+			$(".jess-modal").show();
+		});
+	</script>
+</head>
+
+
+
+
+<body>
+	<!-- INTRO -->
+	<div class="fullpage" id="intro">
+		<!-- NAV -->
+		<nav class="navbar navbar-default navbar-static-top">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed pull-left" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<p id="explore">explore</p>
+			</div>
+			<div id="navbar" class="navbar-collapse collapse">
+				<ul class="nav navbar-nav">
+					<li><a id="aboutmodal-link" href="#aboutmodal">about</a></li>
+					<li><a id="projectsmodal-link" href="#projectsmodal">projects</a></li>
+					<li><a id="contactmodal-link" href="#contactmodal">contact</a></li>
+			<!--	<li><a id="384modal-link" href="#384modal">384</a></li>-->	
+				</ul>
+			</div>
+		</nav>
+		
+		<!-- NAME -->
+		<div class="teal-div"></div>
+		<h1 id="welcome-text"></h1>
+	
+		<!-- SOCIAL -->
+		<div id="social">
+			<a href="mailto:jessicakang2021@u.northwestern.edu?Subject=Hey%20Jess!"><img src="img/social/email.svg" alt="email"></a>
+			<a href="https://www.linkedin.com/in/jessica-kang-90991115a/" target="_blank"><img src="img/social/linkedin.svg" alt="linkedin"></a>
+		</div>
+	</div>
+	
+
+
+	<!-- ABOUT -->
+	<div id="aboutmodal" class="jess-modal">
+		<div class="close-aboutmodal close-container">
+			<div class="arrow-container">
+				<svg class="arrow-icon" xmlns="http://www.w3.org/2000/svg" width="90" height="90" viewBox="0 0 32 32">
+				  <g fill="none" stroke="#000000" stroke-width=".9" stroke-linejoin="round" stroke-miterlimit="10" stroke-linecap="round">
+					<circle class="arrow-icon--circle" cx="16" cy="16" r="11"></circle>
+					<path class="arrow-icon--arrow" d="M16.14 9.93L22.21 16l-6.07 6.07M8.23 0" transform="rotate(270, 16, 16) translate(-2.5 0)"></path>
+				  </g>
+				</svg>
+			</div>
+		</div>
+
+
+		<div class="modal-content">
+			<div class="fullpage" id="about">
+
+				<div id="resume">
+					<a href="resume.pdf" target="_blank">
+						<h1>resum&#233</h1>
+						<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="18px" height="18px" viewBox="0 0 385.756 385.756" style="enable-background:new 0 0 385.756 385.756;" xml:space="preserve">
+							<path id="resume-go" scale="(-1,1)" d="M377.816,7.492C372.504,2.148,366.088,0,358.608,0H98.544c-15.44,0-29.08,10.988-29.08,26.428v23.724
+							c0,15.44,13.64,29.848,29.08,29.848h152.924L8.464,322.08c-5.268,5.272-8.172,11.84-8.176,19.34c0,7.5,2.908,14.296,8.176,19.568
+							L25.24,377.64c5.264,5.272,12.296,8.116,19.796,8.116s13.768-2.928,19.036-8.2l241.392-242.172v151.124
+							c0,15.444,14.084,29.492,29.52,29.492h23.732c15.432,0,26.752-14.048,26.752-29.492V26.52
+							C385.464,19.048,383.144,12.788,377.816,7.492z"/>
+						</svg>
+					</a>
+				</div>
+
+				<div class="teal-div"></div>
+				<div id="about-description">
+					<h1>i am</h1>
+					<hr>
+					<p>I'm Jess, a senior studying mechanical engineering, design, and computer science at Northwestern University. I am currently looking for a full-time engineering role after graduating in June 2021.
+				</div>
+
+				<h3 id="identity-carousel"></h3>
+
+				<div id="about-images">
+					<img src="img/about/about1.jpg" alt="Jess 1">
+					<img src="img/about/about2.jpg" alt="Jess 2">
+					<img src="img/about/about3.jpeg" alt="Jess 3">
+				</div>
+			</div>
+		</div>
+	</div>
+	
+
+
+
+	<!-- PROJECTS -->
+	<!-- projects home -->
+	<div id="projectsmodal" class="jess-modal">
+		<div class="close-projectsmodal close-container">
+			<div class="arrow-container">
+				<svg class="arrow-icon" xmlns="http://www.w3.org/2000/svg" width="90" height="90" viewBox="0 0 32 32">
+			  	<g fill="none" stroke="#000000" stroke-width=".9" stroke-linejoin="round" stroke-miterlimit="10" stroke-linecap="round">
+					<circle class="arrow-icon--circle" cx="16" cy="16" r="11"></circle>
+					<path class="arrow-icon--arrow" d="M16.14 9.93L22.21 16l-6.07 6.07M8.23 0" transform="rotate(270, 16, 16) translate(-2.5 0)"></path>
+				  </g>
+				</svg>
+			</div>
+		</div>
+	
+		<div class="modal-content">
+			<div id="projects">
+				<div class="teal-div"></div>
+				<h1 id="project-header">projects</h1>
+
+				<div id="projects-grid">
+					
+					<div class="project-link" id="384modal-link">
+						<a href="#384modal">
+							<img src="img/projects/384/button.jpg" alt="Farm Composter">
+						</a>
+						<img src="img/projects/384/button.jpg" alt="Farm Composter">
+						<div class="overlay">
+							<div class="project-title">Farm Composter</div>
+							<div class="project-year">Jan.-Jun. 2020</div>
+						</div>
+					</div>
+					<div class="project-link" id="340modal-link">
+						<div class="project-title">I Scream Ice Cream</div>
+						<div class="project-year">Jan.-Mar. 2020</div>
+						<a href="#340modal">
+							<img src="img/projects/340/button.jpeg" alt="I Scream Ice Cream">
+						</a>
+					</div>
+					<div class="project-link" id="mrdcmodal-link">
+						<div class="project-title">Benny</div>
+						<div class="project-year">Jan.-Mar. 2019</div>
+						<a href="#mrdcmodal">
+							<img src="img/projects/mrdc/button.jpeg" alt="MRDC">
+						</a>
+					</div>
+					<div class="project-link" id="240modal-link">
+						<div class="project-title">Bracket Project</div>
+						<div class="project-year">Apr.-Jun. 2019</div>
+						<a href="#240modal">
+							<img src="img/projects/240/button.png" alt="Bracket Project">
+						</a>
+					</div>
+					<div class="project-link" id="dtcmodal-link">
+						<div class="project-title">Helping Handrail</div>
+						<div class="project-year">Jan.-Mar. 2018</div>
+						<a href="#dtcmodal">
+							<img src="img/projects/dtc/button.jpg" alt="Helping Handrail">
+						</a>
+					</div>
+					<div class="project-link" id="funmodal-link">
+						<div class="project-title">For Fun</div>
+						<div class="project-year">2017-2021</div>
+						<a href="#funmodal">
+							<img src="img/projects/fun/button.png" alt="For Fun">
+						</a>
+					</div>
+					
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- 384 
+	<div id="384modal" class="jess-modal">
+		<div class="close-384modal close-container">
+			<div class="arrow-container">
+				<svg class="arrow-icon" xmlns="http://www.w3.org/2000/svg" width="90" height="90" viewBox="0 0 32 32">
+			  	<g fill="none" stroke="#000000" stroke-width=".9" stroke-linejoin="round" stroke-miterlimit="10" stroke-linecap="round">
+					<circle class="arrow-icon--circle" cx="16" cy="16" r="11"></circle>
+					<path class="arrow-icon--arrow" d="M16.14 9.93L22.21 16l-6.07 6.07M8.23 0" transform="rotate(270, 16, 16) translate(-2.5 0)"></path>
+			  	</g>
+				</svg>
+			</div>
+		</div>
+	
+		<div class="modal-content">
+	
+		</div>
+	</div>-->
+
+
+
+
+<!-- CONTACT -->
+	<div id="contactmodal" class="jess-modal">
+		<div class="close-contactmodal close-container">
+			<div class="arrow-container">
+				<svg class="arrow-icon" xmlns="http://www.w3.org/2000/svg" width="90" height="90" viewBox="0 0 32 32">
+				  <g fill="none" stroke="#000000" stroke-width=".9" stroke-linejoin="round" stroke-miterlimit="10" stroke-linecap="round">
+					<circle class="arrow-icon--circle" cx="16" cy="16" r="11"></circle>
+					<path class="arrow-icon--arrow" d="M16.14 9.93L22.21 16l-6.07 6.07M8.23 0" transform="rotate(270, 16, 16) translate(-2.5 0)"></path>
+				  </g>
+				</svg>
+			</div>
+		</div>
+		
+		<div class="modal-content">
+			<div id="contact">
+				<div class="teal-div">
+					<h1 id="say-hi">say hi!</h1>
+
+					<!-- CONTACT FORM -->
+					<form action="MAILTO:JessicaKang2021@u.northwestern.edu?subject=Hey%20Jess!" id="contact-form" name="contact-form" method="post" enctype="text/plain">
+						<div class="container-fluid" id="form-contact-info">
+							<div class="row">
+								<div class="col-md-6">
+									<input id="name" name="Name" placeholder="name" type="text" required>
+								</div>
+								<div class="col-md-6">
+									<input id="email" name="Email" placeholder="email" type="email" required>
+								</div>
+							</div>
+						</div>
+						<textarea cols="35" id="message" name="Message" placeholder="message" rows="10" required></textarea>
+						<input type="submit" value="send it over!">
+					</form>
+
+					<!-- SOCIAL MEDIA -->
+					<div id="social-media">
+						<a href="mailto:JessicaKang2021@u.northwestern.edu?Subject=Hey%20Jess!">
+							<img src="img/social/email.svg" alt="email">
+						</a>
+						<a href="https://www.linkedin.com/in/jessica-kang-90991115a/" target="_blank">
+							<img src="img/social/linkedin.svg" alt="linkedin">
+						</a>
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</div>
+	
+
+
+	<!-- JAVASCRIPT -->
+	<script src="js/animatedModal_slick.min.js"></script>
+	<script src="js/js.js"></script>
+	<script>
+		// Google Analytics
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+		ga('create', 'UA-57091544-1', 'auto');
+		ga('send', 'pageview');
+	</script>
+</body>
+</html>
