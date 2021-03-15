@@ -14,11 +14,11 @@ $(document).ready(function() {
 		modalTarget: 'projectsmodal',
 	});
 
-	$("#384modal-link").animatedModal({
+	$("#funmodal-link").animatedModal({
 		color: '#ffffff',
 		animatedIn: 'bounceInUp',
 		animatedOut: 'bounceOutDown',
-		modalTarget: 'projectsmodal',
+		modalTarget: 'funmodal',
 	});
 	
 	$("#contactmodal-link").animatedModal({
