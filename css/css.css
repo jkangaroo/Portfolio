@@ -650,6 +650,47 @@ a, a:hover, a:visited, a:active {
 	left: 0;
 }
 
+.project-content {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 10%;
+	margin-top: 8%;
+	margin-left: 25%;
+}
+
+.project-content .project-intro {
+	display: grid;
+}
+
+.logo img {
+	width: 1em;
+}
+
+.project-content img {
+	height: 350px;
+	margin-top: 55px;
+	margin-bottom: 55px;
+}
+
+.project-content h1 {
+	font-family: 'helvetica';
+	letter-spacing: 3px;
+	font-weight: bold;
+	font-size: 40px;
+}
+
+.project-content h3 {
+	font-family: 'helvetica';
+	letter-spacing: 3px;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.project-content p {
+	font-family: 'garamond';
+	font-size: 20px;
+}
+
 
 
 
