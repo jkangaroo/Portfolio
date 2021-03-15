@@ -642,6 +642,13 @@ a, a:hover, a:visited, a:active {
 
 /*--------------------------- PROJECT CONTENT ---------------------------*/ 
 
+.project-content .teal-div {
+	position: fixed;
+	height: 100vh;
+	width: 7%;
+	top: 0;
+	left: 0;
+}
 
 
 
