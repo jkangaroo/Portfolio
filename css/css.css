@@ -110,14 +110,14 @@ a, a:hover, a:visited, a:active {
 	padding: 0px 10px!important;
 	line-height: 44px;
 	font-family: 'Garamond';
-	font-size: 16px;
+	font-size: 18px;
 	transition: font-size 0.1s;
 	letter-spacing: 3px;
 	background-color: transparent;
 	color: #000!important;
 }
 .navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
-	font-size: 20px;
+	font-size: 22px;
 	font-weight: bold;
 	transition: font-size 0.1s;
 	background-color: transparent;
@@ -643,27 +643,44 @@ a, a:hover, a:visited, a:active {
 /*--------------------------- PROJECT CONTENT ---------------------------*/ 
 
 .project-content .teal-div {
-	position: fixed;
-	height: 100vh;
-	width: 7%;
+	position: absolute;
+	width: 10%;
 	top: 0;
+	height: 1000vh;
 	left: 0;
 }
 
 .project-content {
-	display: flex;
-	flex-wrap: wrap;
-	margin: 10%;
+	display: table;
+	margin: 15%;
 	margin-top: 8%;
-	margin-left: 25%;
+	margin-left: 20%;
 }
 
 .project-content .project-intro {
-	display: grid;
+	display: inline;
+	margin-bottom: 5%;
+	border-bottom: 5px dotted #000;
 }
 
-.logo img {
-	width: 1em;
+.project-content .project-specs {
+	display: inline;
+	margin-right: 5%;
+}
+
+.project-blurb {
+	padding-right: 45px;
+}
+
+.project-logo {
+	position: absolute;
+	top: 15%;
+	right: 15%;
+}
+
+.project-intro {
+	display: inline;
+	margin-bottom: 20px;
 }
 
 .project-content img {
@@ -672,18 +689,22 @@ a, a:hover, a:visited, a:active {
 	margin-bottom: 55px;
 }
 
+.project-content .project-intro img {
+	height: 100px;
+}
+
 .project-content h1 {
 	font-family: 'helvetica';
-	letter-spacing: 3px;
+	letter-spacing: 5px;
 	font-weight: bold;
-	font-size: 40px;
+	font-size: 42px;
 }
 
 .project-content h3 {
 	font-family: 'helvetica';
 	letter-spacing: 3px;
 	font-weight: bold;
-	font-size: 20px;
+	font-size: 25px;
 }
 
 .project-content p {
@@ -691,8 +712,24 @@ a, a:hover, a:visited, a:active {
 	font-size: 20px;
 }
 
+.full-photo img {
+	width: 50%;
+}
 
+#top-button {
+	text-align: center;
+	font-style: none;
+	font-family: "garamond";
+	font-size: 18px;
+	color: gray;
+	margin-top: 100px;
+	justify-content: center;
+}
 
+#top-button:hover {
+	font-style: bold;
+	color: black;
+}
 
 /*--------------------------- CONTACT ---------------------------*/ 
 
